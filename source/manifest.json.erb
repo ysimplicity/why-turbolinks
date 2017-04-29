@@ -1,0 +1,25 @@
+---
+layout: false
+directory_index: false
+---
+{
+  "name": "<%= data.app.name %>",
+  "short_name": "<%= data.app.short_name %>",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "<%= data.styles.theme_color %>",
+  "background_color": "<%= data.styles.background_color %>",
+  "icons": [
+    <% manifest_json_icons = data.icons.manifest_json %>
+    <% manifest_json_icons.images.each_with_index do |image, index| %>
+      {
+      "src": "<%= image_path("#{data.icons.folder}#{manifest_json_icons.name}#{image['sizes']}.png") %>",
+      "sizes": "<%= image['sizes'] %>",
+      "density": "<%= image['density'] %>",
+      "type": "<%= manifest_json_icons.type %>"
+      }<%= "," if manifest_json_icons.images.length != (index + 1)  %>
+    <% end %>
+  ],
+  "gcm_sender_id": "103953800507"
+}

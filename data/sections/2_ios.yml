@@ -1,0 +1,49 @@
+page_title: Turbolinks iOS
+
+page_header: Artigos para adapter do iOS
+
+page_description: |
+  Coletânea com diversos links úteis para você aprender a fazer a versão iOS do seu App (com Turbolinks 5).
+
+articles:
+  - url: https://github.com/turbolinks/turbolinks-ios
+    title: Documentação oficial
+    author: Turbolinks Team
+    body: |
+      Documentação muito bem escrita! Explica
+      <a href="https://github.com/turbolinks/turbolinks-ios#understanding-turbolinks-concepts" data-turbolinks=false target="_blank">como funciona e como utilizar o adapter</a>
+      e vale a pena pelo menos
+      <a href="https://github.com/turbolinks/turbolinks-ios#running-the-demo" data-turbolinks=false target="_blank">rodar a demo feita por eles mostrando as features do adapter iOS.</a>
+      <br/>
+        Além da documentação, vale a pena ver o talk da RailsConf 2016 "Turbolinks 5: I Can’t Believe It’s Not Native!" em que Sam Stephenson explica muito bem a motivação do Turbolinks e também faz uma demo de como criar um App híbrido iOS. Para o link, cheque a nossa seção de
+        <a class="popover-link" href="/videos.html#video-rails-conf-2016" title="Vídeos">Vídeos</a>.
+      <br/>
+      Para um ver o código de um app real, confira o próximo
+      <a href="#codigo-fonte-do-masterapp-ios">artigo</a>!
+
+  - url: https://github.com/themasterapp/master-app-ios
+    title: Código fonte do MasterApp iOS
+    author: The Master App Team
+    body: |
+      O Master App é um app para você ver e compartilhar receitas. O código disponibilizado mostra como criar uma navegação nativa usando Tab Bar. Além disso, também é possível ver como está sendo gerenciada a navegação no app, como é feito o gerenciamento de sessão do usuário e o CRUD de receitas.
+      Tal projeto, assim como a Demo fornecida na documentação do Turbolinks-iOS, são ótimos pontos de partida para você iniciar sua aplicação.
+
+  - url: https://buildtoship.com/tab-bar-native-hybrid-app-with-xcode-storyboards-and-turbolinks-5/
+    title: Tab Bar native-hybrid app with Xcode storyboards and Turbolinks 5
+    author: Michiel Sikkes
+    body: |
+      Para saber como setar uma navegação com tabbar passo a passo. Ponto de atenção: nesse tutorial ele mostra como ter 2 tabs no seu app, porém a solução proposta tem um problema caso você queira compartilhar estado entre as duas tabs (por exemplo, informar que o usuário está logado). Para isso, lembre-se de compartilhar a WKProcessPool entre todas instâncias de WebView do App. Para mais informações, olhe o
+      <a href="https://github.com/themasterapp/master-app-ios/blob/d0eb7a7dee3c0691d8216b599bb79d7bb21cc562/MasterApp/AppDelegate.swift#L9">código fonte do MasterApp</a>.
+
+  - url: https://buildtoship.com/building-an-ios-app-with-turbolinks-ios/
+    title: Building an iOS app with Turbolinks-iOS
+    author: Joshua Jansen
+    body: |
+      Para saber mais sobre forms e como fazer a comunicação servidor rails com o adapter iOS.
+
+  - url: https://buildtoship.com/devicetoken-and-turbolinks-ios/amp/
+    title: DeviceToken and turbolinks-ios
+    author: Michiel Sikkes
+    body: |
+      Sobre enviar device token (para push notifications) a partir do adapter iOS. Tal técnica também pode ser utilizada para enviar um authToken da sessão do usuário. Um outro approach seria enviar o token como parâmetro da URL (atualmente utilizamos essa técnica no MasterApp para enviar locale e o authToken). Para mais informações sobre assunto, vale também
+      <a href="https://github.com/turbolinks/turbolinks-ios/issues/39" data-turbolinks=false target="_blank">conferir a seguinte issue no próprio repositório do turbolinks-ios</a>.

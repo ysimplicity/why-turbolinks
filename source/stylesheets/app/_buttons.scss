@@ -1,0 +1,27 @@
+.button-black {
+	background-color: $primary-color;
+	border-color: $primary-color;
+	text-decoration: none;
+}
+
+.button-floating {
+	position: fixed;
+	width: 48px;
+	height: 48px;
+	bottom: 40px;
+	right: 40px;
+	background-color: $primary-color;
+	color: $white-color;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 2px 2px 3px $gray-s-color;
+}
+
+.button-floating:hover {
+  color: $white-color;
+  cursor: pointer; cursor: hand;
+}
+
+.button-floating .button-floating-content {
+	margin-top: 12px;
+}

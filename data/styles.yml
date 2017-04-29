@@ -1,0 +1,8 @@
+google_webfonts_url:
+  https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:100,300|Material+Icons|Poppins:300,600
+
+theme_color: "#313131"
+background_color: "#FFFFFF"
+
+images:
+  company_brand: images/ysimplicity.png

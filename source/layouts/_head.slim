@@ -1,0 +1,74 @@
+head
+  // Use the title from a page's frontmatter if it has one
+  title=page_resource_title
+
+  meta charset="utf-8"
+  meta http-equiv="x-ua-compatible" content="ie=edge"
+  meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+
+  meta name="description" content=page_resource_meta_description
+
+  // Social
+  //   Facebook
+  meta property="og:locale"      content="pt_BR"
+  meta property="og:type"        content="website"
+  meta property="og:title"       content=page_resource_title
+  meta property="og:description" content=page_resource_meta_description
+  meta property="og:url"         content=page_resource_url
+  meta property="og:site_name"   content=data.app.name
+  meta property="og:image"       content=social_image_icon_url
+
+  //   Twitter
+  meta name="twitter:card"        content="summary_large_image"
+  meta name="twitter:description" content=page_resource_meta_description
+  meta name="twitter:title"       content=page_resource_title
+  meta name="twitter:url"         content=page_resource_url
+  meta name="twitter:site"        content=data.app.twitter.site
+  meta name="twitter:creator"     content=data.app.twitter.creator
+  meta name="twitter:image"       content=social_image_icon_url
+
+
+  meta name="theme-color" content= data.styles.theme_color
+  meta name="mobile-web-app-capable" content="yes"
+
+  // Tile icon for Win8 (144x144 + tile color)
+  meta name="msapplication-TileImage" content= image_path(data.icons.ms_icon)
+  meta name="msapplication-TileColor" content= data.styles.background_color
+
+  link rel="manifest" href="manifest.json"
+
+  // BEGIN: Favicons
+  - favicon = data.icons.favicon
+  - favicon.image_sizes.each do |image_sizes|
+    = favicon_tag icon_with_sizes_path(favicon, image_sizes), sizes: image_sizes, type: favicon.type
+  // END
+
+  // BEGIN: Android icon
+  - android_icon = data.icons.android_icon
+  - android_icon.image_sizes.each do |image_sizes|
+    = favicon_tag icon_with_sizes_path(android_icon, image_sizes), sizes: image_sizes, type: android_icon.type
+  // END
+
+  // BEGIN: Add to homescreen for Safari on iOS
+  meta name="apple-mobile-web-app-capable" content="yes"
+  meta name="apple-mobile-web-app-title" content= data.app.name
+  meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"
+
+  - precomposed = data.icons.apple_icon.precomposed
+  link rel="apple-touch-icon-precomposed" href= image_icon_path(precomposed.path) sizes= precomposed.sizes
+
+  - apple_icon = data.icons.apple_icon
+  - apple_icon.image_sizes.each do |image_sizes|
+    link rel="apple-touch-icon" sizes= image_sizes href= image_icon_with_sizes_path(apple_icon, image_sizes)
+  // END
+
+  // Critical CSS
+  = partial "layouts/head/critical_css"
+
+  = stylesheet_link_tag "main"
+
+  link href=data.styles.google_webfonts_url rel="stylesheet"
+
+  = javascript_include_tag "main.bundle"
+
+  = partial "layouts/head/google_analytics_script"

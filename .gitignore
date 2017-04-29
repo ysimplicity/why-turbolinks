@@ -1,0 +1,11 @@
+.bundle
+.cache
+.DS_Store
+.sass-cache
+.byebug_history
+.tmp
+firebase-debug.log
+
+node_modules/
+build/
+public/

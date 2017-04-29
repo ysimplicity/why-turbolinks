@@ -1,0 +1,56 @@
+body {
+  color: $primary-color;
+}
+
+hr {
+  border: 0;
+  border-top: 0.1rem solid $gray-xs-color;
+  margin: 3.0rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black-color;
+  font-family: $font-serif-family;
+  font-weight: 700;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: square;
+}
+
+a, a:focus, a:hover {
+  color: $black-color;
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 1.8rem;
+}
+
+select:focus {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="$primary-color" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
+  border-color: $primary-color;
+}
+
+@keyframes a {
+  0%, 50% {
+    transform: rotate(0);
+  }
+  25%, 75% {
+    transform: rotate(-25deg);
+  }
+}

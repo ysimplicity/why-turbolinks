@@ -1,0 +1,13 @@
+---
+page_title: Todas as seções
+page_header: Todas as seções
+show_fab: true
+---
+
+- content_for(:page_description) do
+  - report = WhyTurbolinks::Sections.count_by_subject(data)
+  = "Todo o conteúdo sobre Turbolinks 5 (#{report[:turbolinks]} artigos) e Progressive Web Apps (#{report[:pwa]} artigos) em uma única página. ;)"
+
+- WhyTurbolinks::Sections.group_unique_articles_by_sections(data).each do |section_page, articles|
+  = partial "templates/articles", locals: { articles: articles } do
+    h3= section_page.page_title

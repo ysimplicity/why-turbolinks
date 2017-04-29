@@ -1,0 +1,17 @@
+.wrapper {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.wrapper .container {
+  max-width: 80rem;
+}
+.wrapper>.container {
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
+}
+
+.wrapper main .container > h2 {
+  margin-top: 10rem;
+}

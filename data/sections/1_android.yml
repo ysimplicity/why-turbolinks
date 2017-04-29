@@ -1,0 +1,52 @@
+page_title: Turbolinks Android
+
+page_header: Artigos para adapter do Android
+
+page_description: |
+  Encontre links que o ajudarão no desenvolvimento da versão Android do seu App (com Turbolinks 5).
+
+articles:
+  - url: https://github.com/turbolinks/turbolinks-android
+    title: Documentação oficial
+    author: Turbolinks Team
+    body: |
+      Documentação muito bem escrita! Explica
+      <a href="https://github.com/turbolinks/turbolinks-android#getting-started-three-steps" data-turbolinks=false target="_blank">como funciona e como utilizar o adapter</a>
+      e vale a pena pelo menos
+      <a href="https://github.com/turbolinks/turbolinks-android#running-the-demo-app" data-turbolinks=false target="_blank">rodar a demo feita por eles mostrando as features do adapter Android.</a>
+      <br/>
+        Além da documentação, vale a pena ver o talk "Building Hybrid Apps with Rails - a Case Study" em que Thomas McGoey-Smith apresenta um case dos ganhos que teve ao desenvolver um App Android utilizando Turbolinks 5. Para o link, cheque a nossa seção de
+        <a class="popover-link" href="/videos.html#building-hybrid-apps-with-rails" title="Vídeos">Vídeos</a>.
+      <br/>
+      Para um ver o código de um app real, confira o próximo
+      <a href="#codigo-fonte-do-masterapp-android">artigo</a>!
+
+  - url: https://github.com/themasterapp/master-app-android
+    title: Código fonte do MasterApp Android
+    author: The Master App Team
+    body: |
+      O Master App é um app para você ver e compartilhar receitas. O código disponibilizado mostra como criar uma navegação nativa usando um Navigation Drawer. Além disso, também é possível ver como está sendo gerenciada a navegação no app, como é feito o gerenciamento de sessão do usuário e o CRUD de receitas.
+      Tal projeto, assim como a Demo fornecida na documentação do Turbolinks-Android, são ótimos pontos de partida para você iniciar sua aplicação.
+
+  - url: http://blog.dexem.com/en/dexem-tested-turbolinks-application/
+    title: A hybrid Android/iOS application with Rails and Turbolinks 5
+    author: Olivier
+
+  - url: https://m.signalvnoise.com/to-the-android-open-source-community-thank-you-34823159e08f
+    title: "To the Android open source community: Thank you!"
+    author: Dan Kim
+
+  - id: improve-your-app-by-connecting-the-dots
+    url: https://m.signalvnoise.com/improve-your-app-by-connecting-the-dots-5d5c6fd9be9d
+    title: Improve your App Connecting the Dots.
+    author: Jamie Dihiansan
+
+  - url: https://m.signalvnoise.com/how-i-fell-in-love-with-a-programming-language-8933d5e749ed
+    title: How I fell in love with a programming language
+    author: Dan Kim
+    body:
+      <!-- Fazer menção do Master App que usa Kotlin? Citar nossas motivações? -->
+      <!--
+        Nesse artigo https://m.signalvnoise.com/some-of-my-favorite-kotlin-features-that-we-use-a-lot-in-basecamp-5ac9d6cea95
+        o autor cita recursos que eles usam no basecamp, talvez vale a pena citar nos comentários desse ou criar outro artigo.
+      -->

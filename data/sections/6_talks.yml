@@ -1,0 +1,72 @@
+page_title: Palestras e vídeos
+
+page_header: Palestras, vídeos sobre Turbolinks 5 e Progressive Web Apps
+
+page_description: Palestras, vídeos sobre Turbolinks 5 e Progressive Web Apps.
+
+articles:
+  - video: https://www.youtube.com/embed/NfucOzndumU?t=2h43m
+    title: "GURU SP - MasterApp: Eu não posso acreditar que não é nativo!"
+    author: Rodrigo Serradura e Guilherme Hashioka
+    body: |
+      <strong>
+        <a
+          class="slides" target="_blank" data-turbolinks="false"
+          href="https://goo.gl/BcGSgi"
+          title="Link dos slides da palestra MasterApp: Eu não posso acreditar que não é nativo!">
+          Link
+        </a>
+      </strong>
+      para os slides.
+
+  - video: https://www.youtube.com/embed/SWEts0rlezA
+    title: "RailsConf 2016 - Turbolinks 5: I Can’t Believe It’s Not Native!"
+    author: Sam Stephenson
+
+  - video: https://www.youtube.com/embed/lGToT9RyDxc
+    title: How to use Vue.js and Turbolinks together
+    author: GoRails
+
+  - video: https://www.youtube.com/embed/shplrnG48s0
+    title: Building Hybrid Apps with Rails - a Case Study
+    author: Thomas McGoey-Smith
+    body: |
+      <strong>
+        <a
+          class="slides" target="_blank" data-turbolinks="false"
+          href="https://speakerdeck.com/tamcgoey/building-hybrid-apps-with-rails-a-case-study"
+          title="Link dos slides da palestra Building Hybrid Apps with Rails - a Case Study">
+          Link
+        </a>
+      </strong>
+      para os slides.
+
+  - video: https://www.youtube.com/embed/sH7dlRnuh-k
+    title: Frontinsampa 2015
+    author: Sergio Lopes
+    body: |
+      <strong>
+        <a
+          class="slides" target="_blank" data-turbolinks="false"
+          href="http://www.slideshare.net/caelumdev/progressive-web-apps-o-melhor-da-web-appficada"
+          title='Link dos slides da palestra Progressive Web Apps: o melhor da web, "Appficada"'>
+          Link
+        </a>
+      </strong>
+      para os slides.
+
+  - video: https://www.youtube.com/embed/ARkPBm6AcNA
+    title: The “Progressive” in Progressive Web Apps (Chrome Dev Summit 2016)
+    author: Patrick Kettner
+
+  - video: https://www.youtube.com/embed/J2dOTKBoTL4
+    title: 'Future App Model: Advanced Service Worker (Chrome Dev Summit 2016)'
+    author: Jake Archibald
+
+  - video: https://www.youtube.com/embed/cmGr0RszHc8
+    title: 'Instant Loading: Building offline-first Progressive Web Apps - Google I/O 2016'
+    author: Jake Archibald
+
+  - video: https://www.youtube.com/embed/srdKq0DckXQ
+    title: Progressive Web Apps across all frameworks - Google I/O 2016
+    author: Addy Osmani

@@ -1,0 +1,10 @@
+footer.footer
+  section.container
+    p
+      .footer-text
+        | 2016-#{Time.now.year}, feito com <i class="material-icons heart">favorite</i> pela
+      .footer-company
+        a<> href="mailto:#{data.app.email_contact}"
+          = image_tag(data.styles.images.company_brand, alt: data.app.company_name, class: "footer-company__image")
+      .footer-text
+        | Licenciado sob a <a href="/license.html" title="licença MIT">licença MIT</a>.

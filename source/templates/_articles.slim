@@ -1,0 +1,7 @@
+section.container.content
+  = yield if block_given?
+
+  - articles.each do |article|
+    = partial "templates/article", locals: { model: article }
+
+    hr

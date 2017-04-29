@@ -1,0 +1,170 @@
+page_title: Diversos
+
+page_header: Diversos
+
+page_description: |
+  Considere essa seção como um bookmarks, já que o conteúdo ainda não foi organizado/classificado.
+
+articles:
+  - url: https://www.speedshop.co/2015/05/27/100-ms-to-glass-with-rails-and-turbolinks.html
+    title: 100ms to glass with rails and Turbolinks
+
+  - url: https://sevos.io/2017/02/27/turbolinks-lifecycle-explained.html
+    title: Turbolinks' lifecycle explaned
+    author: Artur Roszczyk
+    body: |
+      <!-- Citar o comentário https://sevos.io/2017/02/27/turbolinks-lifecycle-explained.html#comment-3183458637 -->
+      <!-- Citar a ajuda/contribuição que fiz (https://github.com/Bodacious/TurbolinksFramework/pull/1) para responder as dúvidas de um dos comentários -->
+
+  - url: https://0x2a.sh/replacing-react-with-rails-66e25cd23777#.29wq8o5re
+    title: '[CASE] Replacing React with Rails'
+    author: Jacob Gillespie
+
+  - url: https://changelog.com/posts/why-we-chose-turbolinks
+    title: '[Elixir/Phoenix|Case] Why we chose turbolinks'
+
+  - url: https://github.com/turbolinks/turbolinks/issues/213
+    title: 'Issue: Sobre uma dúvida do Bootstrap + TL5'
+    body: |
+      <!-- Projeto de exemplo https://github.com/serradura/bootstrap-and-turbolinks5 -->
+      <!-- Tweet relacionado https://twitter.com/PanoptikumIO/status/803874577914953728 -->
+      <!-- Esse problema tem haver com esse artigo https://collectiveidea.com/blog/archives/2017/01/13/turbolinks-caching-with-javascript-modified-dom -->
+
+  - url: https://robots.thoughtbot.com/how-we-replaced-react-with-phoenix
+    title: '[Elixir/Phoenix|Case] How we replaced react with phoenix'
+
+
+  - url: https://collectiveidea.com/blog/archives/2017/01/13/turbolinks-caching-with-javascript-modified-dom
+    title: Turbolinks caching with javascript modified dom
+    author: Laura Mosher
+    body: Avoid duplicated markup preparing your document for caching
+
+  - url: https://www.meetup.com/pt-BR/ChicagoRuby/events/238112283/
+    title: 'Meetup ChicagoRuby: 1871 - Building iOS and Android Apps with Rails 5 and Turbolinks'
+    body: |
+      Destacar o repositório/projeto apresentado no evento https://github.com/gbuesing/turbochat
+
+  - url: https://github.com/gbuesing/turbochat
+    title: '[Talk|Demo] Turbochat]'
+    body: |
+      <p>Demo: http://turbochatapp.herokuapp.com/</p>
+      <p>Slides: https://github.com/gbuesing/turbochat/blob/master/slides.pdf</p>
+
+  - url: https://dev.to/sunnysingh/using-turbolinks-to-speed-up-your-site
+    title: Using Turbolinks to speed up your site
+
+  - url: http://aspiringwebdev.com/consider-turbolinks-5-for-your-next-rails-project/
+    title: Consider Turbolinks 5 for your next Rails project
+
+  - url: http://aspiringwebdev.com/rails-lets-us-focus-on-the-hard-stuff/
+    title: Rails lets us focus on the hard stuff
+
+  - url: https://medium.com/philly-dev-shop/turbolinks-5-and-datatables-a882c29d6eff
+    title: Turbolinks 5 and DataTables
+
+  - url: https://stories.abletech.nz/implementing-facebook-sdk-with-turbolinks-5-df4e36cbd86f
+    title: Implementing Facebook SDK with Turbolinks 5
+
+  - url: https://medium.com/@vhbueno/rails-5-turbolinks-and-google-tag-manager-b3c4c30c3fb7
+    title: Rails 5 Turbolinks and Google Tag Manager
+
+  - url: https://github.com/turbolinks/turbolinks/issues/73
+    title: 'Issue: Google analytics best practice'
+    body: |
+      <!-- TODO: Deveríamos fazer uma busca nas issues e destacar as mais relevantes? -->
+
+  - url: https://github.com/youtube/spfjs
+    title: spfjs
+    author: Youtube (Google)
+    body: Projeto similar ao Turbolinks
+
+  - url: https://github.com/defunkt/jquery-pjax
+    title: jquery-pjax
+    author: Chris Wanstrath (@defunkt)
+    body: Projeto similar ao Turbolinks
+
+  - url: http://unpoly.com/
+    title: unpoly
+    author: Henning Koch (@triskweline)
+    body: |
+      Projeto similar ao Turbolinks (https://github.com/unpoly/unpoly)
+      <!-- https://twitter.com/triskweline/status/826332303370645504 -->
+
+  - url: https://github.com/LeadDyno/intercooler-js
+    title: intercooler-js
+    author: LeadDyno
+    body: |
+      Projeto similar ao Turbolinks (http://intercoolerjs.org/why.html)
+
+  - url: https://github.com/nielsenramon/chalk/pull/40
+    title: '[CASE] Issue - Add Turbolinks'
+    body: Implementação do Turbolinks em gerador de sites estáticos, é interessante ler a thread para ver a percepção dos colaboradores em relação a tecnologia.
+
+  - url: https://blog.lodr.io/okay-i-like-turbolinks-b1df1c96c9a9
+    title: Okay, I like Turbolinks
+    author: Ajo
+    body: |
+      I did not think I would prefer Turbolinks over a single page app framework like ReactJS or Angular, but I do! It’s been almost 5 years since I worked on a serious Rails app. The last major version I…
+
+  - url: https://www.quora.com/What-makes-Rails-a-framework-worth-learning-in-2017/answer/David-Heinemeier-Hansson
+    title: What makes Rails a framework worth learning in 2017?
+    body: DHH explica o porque Rails ainda é relevante e cita fala sobre Turbolinks.
+
+  - url: https://keithpblog.wordpress.com/2016/12/13/rails-5-progressive-web-app/
+    title: Rails 5 Progressive Web App
+    body: |
+    Parte 2 do artigo: https://keithpblog.wordpress.com/2016/12/17/rails-5-progressive-web-app-part-2/
+
+  - url: http://brandonhilkert.com/blog/organizing-javascript-in-rails-application-with-turbolinks/
+    title: Organizing javascript in rails application with turbolinks
+
+  - url: https://github.com/Bodacious/TurbolinksFramework
+    title: '[Demo] TurbolinksFramework'
+
+  - url: https://twitter.com/dhh/status/843380356405481473
+    title: Tweet no qual DHH destaca um post que demonstra como a Web tem sido usada para desenvolver aplicações desktop e como isso tem haver com a proposta do Turbolinks.
+
+  - url: https://www.meetup.com/pt-BR/Downtown-Raleigh-Lunchtime-Programming-Bookclub-DRLP/events/237792390/
+    title: 'Meetup | Turbolinks 5 for Web and Mobile Apps'
+    body: |
+      Anotações realizadas por um dos participantes: https://docs.google.com/document/d/1y6Ba2NKa7kPw7rq_uFHlQJL_FcnnVpRcsSWbYEKEB3M/pub
+
+  - url: http://kennethormandy.com/journal/your-favourite-app-isnt-native
+    title: Your favourite App isn't native
+
+  - url: https://medium.com/@JustinNazari/turbolinks-5-6f49f7b7c3d6
+    title: Turbolinks 5
+    body: Artigo no medium.com sobre o assunto.
+
+  - url: http://gatemedia.ch/software/2015/12/23/rails-forms-and-turbolinks.html
+    title: Rails forms and Turbolinks
+
+  - url: https://pooreffort.com/blog/how-i-use-turbolinks/
+    title: How i use Turbolinks
+
+  - url: http://staal.io/blog/2013/01/18/dangers-of-turbolinks/
+    title: Dangers of turbolinks
+
+  - url: https://github.com/nateberkopec/todomvc-turbolinks
+    title: '[Demo project] To-do MVC com Turbolinks 5 e Rails 5'
+
+  - url: https://github.com/turbolinks/turbolinks/wiki/Using-Gon-and-turbolinks-in-Rails
+    title: Gon and Rails
+    body: https://github.com/gazay/gon
+
+  - url: https://speakerdeck.com/mufid/turbolinks-battery-included-spa-for-rails
+    title: '[Talk|Demo] Turbolinks battery included SPA for Rails'
+    body: https://github.com/mufid/tl-demo
+
+  - url: https://speakerdeck.com/lucadegasperi/turbolinks-nativo-col-trucco
+    title: '[Talk|Demo] Turbolinks nativo col trucco'
+    body: Conteúdo em Italiano
+
+  - url: https://mobile.twitter.com/nettofarah/status/822248750802288640
+    title: 'IFTTT usa Turbolinks'
+
+  - url: https://twitter.com/sgrif/status/782316027828920320
+    title: 'Shopify usa Turbolinks'
+
+  - url: https://github.com/turbolinks/turbolinks/issues/186
+    title: 'Cookpad usa Turbolinks'

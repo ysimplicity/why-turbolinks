@@ -1,0 +1,23 @@
+---
+layout: false
+directory_index: false
+---
+CACHE MANIFEST
+# <%= data.app.cache_version %>
+
+<%= data.styles.google_webfonts_url %>
+
+<% BLACK_LIST = /\.(keep|appcache|xml)|404|service-worker|firebase-messaging-sw|manifest\.json/ %>
+<% pages = sitemap.resources.reject{ |page| page.source_file.match(BLACK_LIST) || page.url == '/' } %>
+<% pages = pages.reject{ |page| page.source_file.match(/android-icon/) && !page.source_file.match(/192x192/)  } %>
+CACHE:
+<% pages.each do |page| %>
+<%= page.url %>
+<% end %>
+/index.html
+
+NETWORK:
+*
+
+FALLBACK:
+/ /index.html

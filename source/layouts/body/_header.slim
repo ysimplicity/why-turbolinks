@@ -1,0 +1,10 @@
+    header
+      nav.navigation
+        section.container.navigation-container
+          a class="navigation-title" href="/"
+            = image_tag "whyturbolinks-title.png", alt: data.app.name, class: "img"
+            h1 style="display: none;"= data.app.name
+
+          ul.navigation-list.float-right
+            = partial "layouts/body/header/navigation_menu"
+            = partial "layouts/body/header/navigation_support"

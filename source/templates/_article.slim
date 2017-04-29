@@ -1,0 +1,6 @@
+article id= model.id
+  - if model.video?
+    = partial "templates/article/video", locals: { model: model }
+  - else
+    = partial "templates/article/text", locals: { model: model }
+

@@ -1,0 +1,13 @@
+importScripts('https://www.gstatic.com/firebasejs/3.7.4/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/3.7.4/firebase-messaging.js');
+
+// Initialize Firebase
+var config = {
+  apiKey: "<%= data.firebase.apiKey %>",
+  authDomain: "<%= data.firebase.authDomain %>",
+  databaseURL: "<%= data.firebase.databaseURL %>",
+  messagingSenderId: "<%= data.firebase.messagingSenderId %>"
+};
+firebase.initializeApp(config);
+
+var messaging = firebase.messaging();

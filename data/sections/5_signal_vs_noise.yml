@@ -1,0 +1,39 @@
+page_title: Signal VS Noise (Basecamp)
+
+page_header: Artigos do Signal VS Noise, time do Basecamp responsável pela criação do Turbolinks
+
+page_description: |
+  O Basecamp é o criador do Turbolinks, nessa coletânea você econtrará as motivações técnicas e de negócios e quais resultados eles conseguiram obter com o uso dessa tecnologia.
+
+articles:
+  - url: https://signalvnoise.com/posts/3743-hybrid-sweet-spot-native-navigation-web-content
+    title: 'Hybrid sweet spot: Native navigation, web content'
+    author: DHH
+    body: |
+      When we launched the iPhone version of Basecamp in February of last year, it was after many rounds of experimentation on the architectural direction. The default route suggested by most when we got started back in early/mid-2012 was simple enough: Everything Be Native!
+      This was a sensible recomm…
+
+  # TODO: Escrever sobre a sitação indireta ao Turbolinks e a dinâmica que a solução proporciona a empresa.
+  - url: https://m.signalvnoise.com/the-majestic-monolith-29166d022228
+    title: Depend less on each other
+    author: Jason Fried
+    body: |
+      Do you do a lot of waiting around at work? Not waiting because there’s nothing to do, but waiting on someone else to do something first so you can do something second? Dependencies are tangled…
+
+  - url: https://m.signalvnoise.com/debunking-android-myths-webviews-suck-so-make-everything-native-cea5f8a8db87
+    title: "Myth debunking: WebViews suck, everything should be native"
+    author: Dan Kim
+    body: |
+      If there’s one thing that gets a lot of shit on Android, it’s webviews (OK, not as much as fragments, but it’s up there). How do I know? The next time you talk to an Android programmer or designer…
+
+  - url: https://m.signalvnoise.com/program-to-where-the-performance-puck-is-going-to-be-not-where-it-has-been-2e1c89bac058
+    title: Program to where the performance puck is going to be, not where it has been
+    author: DHH
+    body: |
+      In the year of our lord, 2013, the thought of ARM-powered phones running the full web experience with JavaScript as fast as x86-powered desktops was a laughable pipe dream. Way back in those olden…
+
+  - url: https://m.signalvnoise.com/the-majestic-monolith-29166d022228
+    title: The Majestic Monolith
+    author: DHH
+    body: |
+      Some patterns are just about the code. If your code looks like this, and you need it to do that, here’s what to do. You’d do well to study such patterns, as they give you a deep repertoire of…

@@ -1,0 +1,102 @@
+page_title: Progressive Web Apps
+
+page_header: Artigos sobre Progressive Web Apps
+
+page_description: |
+  Uma Progressive Web App ou PWA é uma aplicação web, um site com recursos de Apps nativos, como: Receber notificações, funcionar off-line (sem conexão com internet) e instalar na home screen do usuário.<br>
+  Nessa seção você econtrará diversos links e vídeos sobre esse assunto.
+
+articles:
+  - url: https://medium.com/tableless/introdu%C3%A7%C3%A3o-aos-progressive-web-apps-ad47ba24cddb
+    title: Introdução aos Progressive Web Apps
+    body: |
+      O que é? De onde vem? O que comem?<br>
+      Essas perguntas ajudam a expressar esse excelente artigo que explica o porque da tecnologia dentro do panorama do mercado mobile/tecnologia.
+
+  - url: https://imasters.com.br/desenvolvimento/progressive-web-apps-palavra-chave-e-web-nao-app/
+    title: 'Progressive Web Apps: a palavra-chave é Web, não App'
+    author: Sérgio Lopes
+
+  - url: https://twitter.com/TraderD65/status/797278406794735616
+    title: SPA !== PWA
+    body: |
+      <a href="https://twitter.com/jaffathecake/status/739137086947753986" target="_blank">Veja essa outra thread no twitter</a>
+      na qual Jake Archibald (engenheiro do Google) aborda essa falácia de que um PWA precisa ser uma
+      <a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank">SPA (Single Page Application)</a>.
+
+  - url: https://developers.google.com/web/progressive-web-apps/
+    title: Progressive Web Apps Google
+    body: Site do Google com cursos, artigos e ferramentas sobre o assunto.
+
+  - url: https://developers.google.com/web/tools/lighthouse/
+    title: '[Tooling] Lighthouse'
+    body: |
+      Ferramenta <a href="https://github.com/GoogleChrome/lighthouse" target="_blank">open-source</a>
+      criada para analisar a qualidade, performance de qualquer Web app e fornecer métricas e de insights sobre a sua aplicação.
+
+  - url: http://preview.pwabuilder.com/
+    title: '[Tooling] PWA Builder'
+    body: |
+       Agiliza a criação de recursos (manifest.json, Service Worker) de PWA em qualquer Web App/Site.
+
+  - url: http://appimagegenerator-pre.azurewebsites.net/
+    title: '[Tooling] App Image Generator'
+    body: Crie versões de uma imagem/ícone em diferentes tamanhos e para diferentes plataformas.
+
+  - url: https://webmanife.st/
+    title: '[Tooling] ManifeStation'
+    body: Ferramenta especializada em criar arquivos manifest.json.
+
+  - video: https://www.youtube.com/embed/sH7dlRnuh-k
+    title: Frontinsampa 2015
+    author: Sergio Lopes
+    body: |
+      <strong>
+        <a
+          class="slides" target="_blank" data-turbolinks="false"
+          href="http://www.slideshare.net/caelumdev/progressive-web-apps-o-melhor-da-web-appficada"
+          title='Link dos slides da palestra Progressive Web Apps: o melhor da web, "Appficada"'>
+          Link
+        </a>
+      </strong>
+      para os slides.
+
+  - video: https://www.youtube.com/embed/ARkPBm6AcNA
+    title: The “Progressive” in Progressive Web Apps (Chrome Dev Summit 2016)
+    author: Patrick Kettner
+
+  - video: https://www.youtube.com/embed/J2dOTKBoTL4
+    title: 'Future App Model: Advanced Service Worker (Chrome Dev Summit 2016)'
+    author: Jake Archibald
+
+  - video: https://www.youtube.com/embed/cmGr0RszHc8
+    title: 'Instant Loading: Building offline-first Progressive Web Apps - Google I/O 2016'
+    author: Jake Archibald
+
+  - video: https://www.youtube.com/embed/srdKq0DckXQ
+    title: Progressive Web Apps across all frameworks - Google I/O 2016
+    author: Addy Osmani
+
+  - url: https://codelabs.developers.google.com/codelabs/your-first-pwapp/#0
+    title: Your First Progressive Web App
+    author: Google Codelabs
+
+  - url: https://brasil.uxdesign.cc/o-que-são-progressive-web-apps-86e1b5306051
+    title: O que são Progressive Web Apps?
+    author: Fabricio Teixeira
+
+  - url: https://brasil.uxdesign.cc/um-fluxograma-para-você-decidir-entre-app-ou-site-mobile-b02503b2e600
+    title: Um fluxograma para você decidir entre App ou Site Mobile
+    author: Fabricio Teixeira
+    body: |
+      <p>
+        <strong>Te desafio a fazer o seguinte exercício:</strong>
+        <br>
+        Análise o fluxograma e responda os pontos que levam ao app nativo ou híbrido,
+        com PWA. Você irá se surpreender com as possibilidades.
+      </p>
+      <p>
+        <strong>Desafio número dois:</strong>
+        <br>
+        Análise o fluxograma sobre a ótica do Turbolinks 5. Você irá se surpreender <strong>ainda mais</strong> com as possibilidades.
+      </p>

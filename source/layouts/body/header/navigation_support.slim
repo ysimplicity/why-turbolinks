@@ -1,0 +1,16 @@
+li.navigation-item
+  a.navigation-link href="#popover-support" data-popover="" data-turbolinks="false"
+    | Suporte
+
+  .popover id="popover-support"
+    ul.popover-list
+      li.popover-item data-turbolinks="false"
+        = link_to "Github", data.app.github_url, title: "Veja o projeto no Github", class: "popover-link", target: "_blank"
+
+      li.popover-item data-turbolinks="false"
+        = mail_to data.app.email_contact, "Contato", title: "Fale com a #{ data.app.company_name }", class:"popover-link"
+
+      li.popover-item
+        - license_page = "license.html"
+        = link_to "Licença MIT", "/#{license_page}", title: "Licença MIT",
+                                                     class: "popover-link #{'active' if current_page.path == license_page}"

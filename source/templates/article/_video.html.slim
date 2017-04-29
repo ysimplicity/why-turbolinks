@@ -1,0 +1,8 @@
+h5= model.header
+
+- if model.body?
+  p.article__description
+    = model.body
+
+.video-wrapper
+  iframe width="560" height="315" src= model.video frameborder="0" allowfullscreen="true"

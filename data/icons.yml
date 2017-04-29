@@ -1,0 +1,50 @@
+folder: images/icons/v7/
+
+ms_icon: ms-icon-150x150
+
+android_icon:
+  name: android-icon-
+  type: image/png
+  image_sizes:
+    - 192x192
+
+favicon:
+  name: favicon-
+  type: image/png
+  image_sizes:
+    - 16x16
+    - 32x32
+
+apple_icon:
+  precomposed:
+    path: "apple-icon-180x180.png"
+    sizes: 180x180
+  name: apple-icon-
+  image_sizes:
+    - 76x76
+    - 120x120
+    - 152x152
+    - 180x180
+
+manifest_json:
+  name: android-icon-
+  type: image/png
+
+  images:
+    - sizes: 48x48
+      density: "1.0"
+
+    - sizes: 72x72
+      density: "1.5"
+
+    - sizes: 96x96
+      density: "2.0"
+
+    - sizes: 144x144
+      density: "3.0"
+
+    - sizes: 192x192
+      density: "4.0"
+
+    - sizes: 512x512
+      density: "4.0"

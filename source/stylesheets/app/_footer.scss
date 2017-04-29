@@ -1,0 +1,21 @@
+.footer {
+  padding-bottom: 0;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.25rem
+}
+
+.footer-company {
+  margin-top: 8px;
+  text-align: center;
+}
+  .footer-company__image {
+    height: 25px;
+  }
+
+.footer .heart {
+  color: $secondary-color;
+  font-size: 1em;
+}

@@ -1,0 +1,39 @@
+p.description {
+  color: $primary-color;
+}
+
+ul li p.description {
+  font-size: 90%;
+  margin-top: 0.5rem;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  margin-left: 3rem;
+}
+
+.home-section__title {
+  &, &:focus, &:hover {
+    font-family: $font-serif-family;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-decoration: underline;
+  }
+}
+
+article a h5 {
+  margin-bottom: .5rem;
+}
+
+.article__title {
+  text-decoration: underline;
+}
+
+.article__description a {
+  &, &:focus, &:hover {
+    text-decoration: underline;
+  }
+}
+
+section.content.container {
+  padding-top: 2rem;
+}
+

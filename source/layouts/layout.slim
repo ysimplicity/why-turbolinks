@@ -1,0 +1,17 @@
+doctype html
+html manifest="/main.appcache"
+  = partial "layouts/head"
+  = partial "layouts/body" do
+    div data-animate=""
+      section.container
+        h2= page_resource_data.page_header
+
+        - data_key = :page_description
+        - if content_for?(data_key) || page_resource_data[data_key].present?
+            p.description
+              = content_for?(data_key) ? yield_content(data_key) : page_resource_data[data_key]
+
+      = yield
+
+      - if show_fab?
+        = partial "layouts/body/fab"

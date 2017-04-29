@@ -1,0 +1,67 @@
+nav.navigation {
+  background: $primary-color;
+  color: $white-color;
+  border-bottom: .1rem solid $gray-color;
+  display: block;
+  height: 7rem;
+  left: 0;
+  max-width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 4px solid $secondary-color;
+}
+
+nav.navigation .navigation-list {
+  list-style: none;
+  margin-bottom: 0;
+  margin-right: 5rem;
+}
+@media (max-width:40rem) {
+  nav.navigation .navigation-list {
+    margin-right: 0;
+  }
+}
+@media (min-width:80rem) {
+  nav.navigation .navigation-list {
+      margin-right: 0;
+  }
+}
+nav.navigation .navigation-item {
+  float: left;
+  margin-bottom: 0;
+  margin-left: 2.5rem;
+  position: relative;
+}
+nav.navigation .img {
+  height: 3.25rem;
+  position: relative;
+  top: 1rem;
+}
+nav.navigation .navigation-title, nav .title {
+  font-family: $font-brand-family;
+  font-weight: 600;
+  color: $white-color;
+  position: relative;
+  letter-spacing: .01em;
+  text-transform: lowercase;
+}
+
+nav.navigation .navigation-link{
+  font-weight: 300;
+  font-family: $font-brand-family;
+}
+
+nav.navigation .navigation-link, nav .navigation-title, nav .title {
+  color: $white-color;
+  display: inline;
+  font-size: 1.5rem;
+  line-height: 6.2rem;
+  padding: 0;
+  text-decoration: none;
+}
+nav.navigation .navigation-link.active {
+  color: $white-color;
+}

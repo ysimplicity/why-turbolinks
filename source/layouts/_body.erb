@@ -1,0 +1,12 @@
+<body data-hosts='<%= data.app.hosts.to_json %>'
+      data-firebase='<%= data.firebase.to_json %>' >
+  <div class="wrapper">
+    <%= partial "layouts/body/header" %>
+
+    <main>
+      <%= yield %>
+    </main>
+
+    <%= partial "layouts/body/footer" %>
+  </div>
+</body>

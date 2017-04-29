@@ -1,0 +1,42 @@
+uncurated_content: true
+
+page_title: Vue.js + Turbolinks
+
+page_header: Vue.js + Turbolinks
+
+page_description: |
+  Vue foi projetado desde sua concepção para ser adotável incrementalmente. A biblioteca principal é focada exclusivamente na camada visual, sendo muito fácil adotar e integrar com outras bibliotecas ou projetos existentes. Por conta dessas características tem sido comum encontrar um número cada vez maior de conteúdo sobre o uso com Turbolinks e nessa seção você verá uma coletânea de artigos sobre ambos os assuntos.
+
+articles:
+  - video: https://www.youtube.com/embed/lGToT9RyDxc
+    title: How to use Vue.js and Turbolinks together
+    author: GoRails
+
+  - url: https://ksylvest.com/posts/2016-09-07/augmenting-a-ruby-on-rails-app-with-vue-js
+    title: Augmenting a Ruby on Rails App with Vue.js
+    body: |
+      Esse artigo demonstra o uso dos componentes com
+      <a href="https://vuejs.org/v2/guide/components.html#Inline-Templates">Inline Templates</a>,
+      que foi pensado para envelopar tags/markups renderizado pelo servidor (premissa do Turbolinks).
+      Com isso, esse recurso se torna uma excelente opção para ter uma arquitura de componentes com o Turbolinks.
+
+  - url: https://github.com/jeffreyguenther/vue-turbolinks
+    title: '[Githup] A Turbolinks Adapter for Vue components.'
+    body: |
+      Relacionado:
+        <a href="https://github.com/turbolinks/turbolinks/wiki/VueJs-and-Turbolinks">
+          https://github.com/turbolinks/turbolinks/wiki/VueJs-and-Turbolinks
+        </a>
+
+  - url: https://github.com/pascallaliberte/vue-turbolinks-demo
+    title: Vue Turbolinks Demo
+    body: |
+      Slides: <a href="https://pt.slideshare.net/pascallaliberte/making-turbolinks-work-with-vuejs-fast-servergenerated-pages-with-reactive-frontend-components">
+        https://pt.slideshare.net/pascallaliberte/making-turbolinks-work-with-vuejs-fast-servergenerated-pages-with-reactive-frontend-components
+      </a>
+
+  - url: http://s.bradlis7.com/2017/02/turbolinks-and-vue-javascript-managing-memory/
+    title: 'Turbolinks and Vue: Javascript managing memory'
+
+  - url: https://gist.github.com/benoitongit/68deff5b3abba809e5aca7e410a93112
+    title: '[Gist] Make Vue.js works with Ruby on Rails and Turbolinks 5'

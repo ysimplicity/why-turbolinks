@@ -1,0 +1,19 @@
+---
+page_title: Turbolinks 5 e Progressive Web Apps
+page_header: Seja bem vindo!
+page_description: Aqui você encontra uma coletânea de artigos e outros conteúdos relacionados ao Turbolinks 5 e Progressive Web Apps.
+---
+
+section.container
+  p Conheça as nossas seções:
+
+  ul
+    - WhyTurbolinks::Sections.map(data).each do |section_page|
+      li
+        a.home-section__title href= section_page.resource_path title= section_page.page_header
+          = section_page.page_title
+
+        - if section_page.page_description
+          p.description= section_page.page_description
+
+  hr

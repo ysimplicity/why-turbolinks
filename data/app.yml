@@ -1,0 +1,17 @@
+name: why turbolinks.
+short_name: why turbo.
+
+twitter:
+  site: '@whysimplicity'
+  creator: '@serradura'
+
+company_name: ysimplicity
+email_contact: info@ysimplicity.com
+
+github_url: https://github.com/ysimplicity/why-turbolinks
+
+cache_version: 'V107'
+
+hosts:
+  my: http://localhost:4567
+  notifications_server: http://localhost:3000
